@@ -1,24 +1,100 @@
 <body>
     <div class="row">
         <div class="left" style="background-color:#bbb;">
-            <h2>Menu</h2>
+            <h2>Filters</h2>
             <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-            <ul id="myMenu">
-                <li><a href="#">Campaign</a></li>
-                <li><a href="#">Idea</a></li>
-                <li><a href="#">Owner</a></li>
-                <li><a href="#">Date</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Division</a></li>
-                
-            </ul>
+            <br>
+            <div class="Theme-Filter">
+                <h4>Theme</h4>
+                <form >
+                    <input type="checkbox" id="Datascience">
+                    <label for="Datascience">Data Science</label>
+                    <br>
+                    <input type="checkbox" id="Charity">
+                    <label for="Charity">Charity</label>
+                    <br>
+                    <input type="checkbox" id="Renewablenergy">
+                    <label for="Renewablenergy">Renewabl Energy</label>
+                    
+                </form>
+            </div>
+            <hr>
+            <div class="Theme-Filter">
+                <h4>Department</h4>
+                <form >
+                    <input type="checkbox" id="HR">
+                    <label for="HR">Human Resources</label>
+                    <br>
+                    <input type="checkbox" id="Accounting">
+                    <label for="Accounting">Accounting</label>
+                    <br>
+                    <input type="checkbox" id="IT">
+                    <label for="IT">Information Technology</label>
+                    <br>
+                    <input type="checkbox" id="Marketing">
+                    <label for="Marketing">Marketing</label>
+                    <br>
+                    <input type="checkbox" id="Sales">
+                    <label for="Sales">Sales</label>
+                    <br>
+                    <input type="checkbox" id="Finance">
+                    <label for="Finance">Finance</label>
+                    
+                </form>
+            </div>
+            <hr>
+            <div class="Theme-Filter">
+                <h4>Campaign</h4>
+                <form >
+                    <input type="checkbox" id="WeeklyTuesday">
+                    <label for="WeeklyTuesday">Weekly Tuesday</label>
+                    <br>
+                    <input type="checkbox" id="Hackathon">
+                    <label for="Hackathon">Hackathon</label>
+                </form>
+            </div>
+            <hr>
+            <div class="Theme-Filter">
+                <h4>Active/Inactive</h4>
+                <form >
+                    <input type="checkbox" id="Active">
+                    <label for="Active">Active</label>
+                    <br>
+                    <input type="checkbox" id="Inactive">
+                    <label for="Inactive">Inactive</label>
+                </form>
+            </div>
+            <hr>
+            <div class="Theme-Filter">
+                <h4>Status</h4>
+                <form >
+                    <input type="checkbox" id="Submitted">
+                    <label for="Submitted">Submitted</label>
+                    <br>
+                    <input type="checkbox" id="Approved">
+                    <label for="Approved">Approved</label>
+                    <br>
+                    <input type="checkbox" id="Rejected">
+                    <label for="Rejected">Rejected</label>
+                </form>
+            </div>
+            <hr>
+            
+
+           
         </div>
         <div class="right" style="background-color:#ddd;">
                     <div class="row">
                         <div class="column">
                             <div class="card">
                                 <p>This is my first idea, remove PK sir from the team</p>
+                                <hr>
+                                <label>Comment</label>
+                                <div class=comment>
+                                    <input type="text" id=comment>
+                                </div>
                             </div>
+                            
                         </div>
                         <div class="column">
                             <div class="card">
